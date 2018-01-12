@@ -147,23 +147,96 @@
     font-style: normal;
 }
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.border-black {
+    border: 1px solid black;
+}
+
+.border-red {
+    border: 1px solid red;
+}
+
+.border-green {
+    border: 1px solid green;
+}
+
 
 /* ****************************************************************** */
 
 
 /* HEADER */
 
+header {
+    height: 30px;
+    background-color: black;
+}
+
 
 /* ****************************************************************** */
 
 
-/* SECTION */
+/* SECTION - SLIDER */
+
+.section-slider {
+    height: 500px;
+    background: rgba(255, 255, 255, 1);
+    background: -moz-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(212, 212, 212, 1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255, 255, 255, 1)), color-stop(100%, rgba(212, 212, 212, 1)));
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(212, 212, 212, 1) 100%);
+    background: -o-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(212, 212, 212, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(212, 212, 212, 1) 100%);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(212, 212, 212, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d4d4d4', GradientType=0);
+}
+
+
+/* ****************************************************************** */
+
+
+/* SECTION - PRODUCTS */
+
+.section-products {
+    height: 300px;
+    background-color: white;
+}
+
+
+/* ****************************************************************** */
+
+
+/* SECTION-PRICING */
+
+.section-pricing {
+    height: 700px;
+    background-color: #EFF2F2;
+}
+
+
+/* ****************************************************************** */
+
+
+/* SECTION-CONTACT */
+
+.section-contact {
+    height: 600px;
+    background-color: white;
+}
 
 
 /* ****************************************************************** */
 
 
 /* FOOTER */
+
+footer {
+    height: 150px;
+    background-color: white;
+}
 
 
 /* ****************************************************************** */

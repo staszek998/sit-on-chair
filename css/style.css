@@ -299,10 +299,13 @@ span {
 h2 {
     display: block;
     height: 40px;
+    text-transform: uppercase;
+    color: rgb(96, 96, 96);
+    font-size: 30px;
 }
 
 .calc {
-    height: calc(100% - 40px);
+    height: calc(100% - 60px);
 }
 
 
@@ -377,10 +380,54 @@ div.checkbox {
 
 .form-padding {
     padding-right: 50px;
+    height: 100%;
 }
 
 .form {
     width: 100%;
+}
+
+#textarea {
+    height: 50%;
+    outline: none;
+    border: 2px #28C5AD solid;
+    color: #EFF2F2;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    resize: none;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 30px;
+    border-radius: 5px;
+}
+
+#name,
+#email {
+    height: 40%;
+    outline: none;
+    border: 2px #28C5AD solid;
+    color: #EFF2F2;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    padding-left: 20px;
+    border-radius: 5px;
+}
+
+#email {
+    margin-top: 23px;
+}
+
+.vertical-stretch {
+    height: 50%;
+}
+
+.line {
+    width: 33.33%;
+    height: 5px;
+    background-color: #28C5AD;
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 15px;
 }
 
 

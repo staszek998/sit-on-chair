@@ -299,6 +299,34 @@ nav span {
     margin: auto;
 }
 
+#slider-container span {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 50px;
+    display: inline-block;
+}
+
+.inner-span {
+    color: #28C5AD;
+}
+
+.slider-title {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 50px;
+    color: black;
+    font-weight: 900;
+}
+
+#slider-container p {
+    text-align: center;
+}
+
+.div-button {
+    width: 100% !important;
+    height: auto !important;
+}
+
 
 /* ****************************************************************** */
 

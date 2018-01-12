@@ -228,12 +228,12 @@ h1 {
     text-transform: uppercase;
     color: white;
     font-size: 20px;
-    font-weight: bolder;
+    font-weight: normal;
 }
 
 .turquoise {
     color: #28C5AD;
-    font-weight: bolder;
+    font-weight: 1000;
 }
 
 span {
@@ -371,6 +371,30 @@ img:nth-child(3) {
 img:last-child {
     top: 0;
     left: 150px;
+    bottom: 0;
+    margin: auto;
+}
+
+footer h1 {
+    color: rgb(96, 96, 96);
+    position: absolute;
+    top: 62px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    text-align: center;
+}
+
+footer span {
+    font-weight: 900;
+}
+
+.copyright {
+    color: rgb(96, 96, 96);
+    position: absolute;
+    top: 68px;
+    left: 0;
     bottom: 0;
     margin: auto;
 }

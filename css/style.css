@@ -236,8 +236,16 @@ h1 {
     font-weight: 1000;
 }
 
-span {
+h1 span {
     display: inline;
+}
+
+nav span {
+    text-align: right;
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 
@@ -388,7 +396,7 @@ div.checkbox {
 }
 
 #textarea {
-    height: 50%;
+    height: 54%;
     outline: none;
     border: 2px #28C5AD solid;
     color: #EFF2F2;
@@ -428,6 +436,10 @@ div.checkbox {
     border: none;
     border-radius: 2px;
     margin-bottom: 15px;
+}
+
+.section-contact .line {
+    margin-bottom: 35px;
 }
 
 

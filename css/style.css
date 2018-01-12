@@ -375,6 +375,14 @@ div.checkbox {
     font-weight: 700;
 }
 
+.form-padding {
+    padding-right: 50px;
+}
+
+.form {
+    width: 100%;
+}
+
 
 /* ****************************************************************** */
 

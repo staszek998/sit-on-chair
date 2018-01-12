@@ -268,7 +268,7 @@ nav span {
 
 #col-2-layout-slider {
     height: 100%;
-    width: 100%;
+    width: auto;
     margin-left: 80px;
     margin-right: 80px;
 }

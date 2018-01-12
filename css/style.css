@@ -304,11 +304,14 @@ nav span {
     padding: 10px;
 }
 
-
-/* .section-products .container {
+.section-products .col-3-layout {
     margin-left: -10px;
     margin-right: -10px;
-} */
+}
+
+.article .line {
+    width: 150px;
+}
 
 
 /* ****************************************************************** */

@@ -290,6 +290,11 @@ span {
 
 h2 {
     display: block;
+    height: 40px;
+}
+
+.calc {
+    height: calc(100% - 40px);
 }
 
 

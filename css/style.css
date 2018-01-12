@@ -285,6 +285,14 @@ nav span {
     float: left;
 }
 
+#col-2-layout-slider div:first-child img {
+    width: 180%;
+    top: 0;
+    left: -135px;
+    bottom: 0;
+    margin: auto;
+}
+
 
 /* ****************************************************************** */
 

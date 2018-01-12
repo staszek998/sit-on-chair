@@ -273,6 +273,18 @@ nav span {
     margin-right: 80px;
 }
 
+#col-2-layout-slider div:first-child {
+    width: 40%;
+    height: 100%;
+    float: left;
+}
+
+#col-2-layout-slider div:last-child {
+    width: 60%;
+    height: 100%;
+    float: left;
+}
+
 
 /* ****************************************************************** */
 

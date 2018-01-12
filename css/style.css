@@ -180,6 +180,10 @@ title {
     margin: 0 auto;
 }
 
+.col-2-layout {}
+
+.column {}
+
 
 /* ****************************************************************** */
 
@@ -189,6 +193,16 @@ title {
 header {
     height: 30px;
     background-color: black;
+}
+
+.text-white {
+    color: white;
+}
+
+.col-2-layout .column {
+    width: 50%;
+    float: left;
+    height: 100%;
 }
 
 

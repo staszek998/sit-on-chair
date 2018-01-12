@@ -152,6 +152,7 @@
     margin: 0;
     padding: 0;
     display: block;
+    font-family: sans-serif;
 }
 
 title {
@@ -184,7 +185,9 @@ title {
 
 .col {}
 
-.col-3-layout {}
+.col-3-layout {
+    height: 100%;
+}
 
 .clearfix:after {
     content: "";
@@ -211,6 +214,22 @@ header {
     width: 50%;
     float: left;
     height: 100%;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.turquoise {
+    color: #28C5AD;
+    font-weight: bolder;
+}
+
+span {
+    display: inline;
 }
 
 
@@ -261,6 +280,16 @@ header {
 
 .col-3-layout {
     height: 100%;
+    display: block;
+}
+
+.wrapper {
+    height: 700px;
+    max-height: 700px;
+}
+
+h2 {
+    display: block;
 }
 
 

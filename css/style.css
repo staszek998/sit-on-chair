@@ -283,6 +283,33 @@ nav span {
     height: 100%;
 }
 
+.product-1,
+.product-2 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.product-1 {
+    background-image: url("/home/stan/coders-lab/workspace/module-1/workshops/sit-on-chair/images/box1_img.jpg");
+}
+
+.product-2 {
+    background-image: url("/home/stan/coders-lab/workspace/module-1/workshops/sit-on-chair/images/box2_img.jpg");
+}
+
+.section-products .col-3-layout .col {
+    padding: 10px;
+}
+
+
+/* .section-products .container {
+    margin-left: -10px;
+    margin-right: -10px;
+} */
+
 
 /* ****************************************************************** */
 

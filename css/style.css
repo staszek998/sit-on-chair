@@ -182,7 +182,9 @@ title {
 
 .col-2-layout {}
 
-.column {}
+.col {}
+
+.col-3-layout {}
 
 
 /* ****************************************************************** */
@@ -199,7 +201,7 @@ header {
     color: white;
 }
 
-.col-2-layout .column {
+.col-2-layout .col {
     width: 50%;
     float: left;
     height: 100%;
@@ -232,6 +234,12 @@ header {
 .section-products {
     height: 300px;
     background-color: white;
+}
+
+.col-3-layout .col {
+    width: 33.33%;
+    float: left;
+    height: 100%;
 }
 
 

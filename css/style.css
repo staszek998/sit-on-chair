@@ -264,6 +264,20 @@ header {
     background-color: white;
 }
 
+.col-2-3-layout {}
+
+.col-2-3-layout .col:first-child {
+    width: 60%;
+    float: left;
+    height: 100%;
+}
+
+.col-2-3-layout .col:last-child {
+    width: 40%;
+    float: left;
+    height: 100%;
+}
+
 
 /* ****************************************************************** */
 

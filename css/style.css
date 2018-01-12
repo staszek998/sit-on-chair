@@ -195,6 +195,14 @@ title {
     clear: both;
 }
 
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
 
 /* ****************************************************************** */
 
@@ -337,6 +345,34 @@ h2 {
 footer {
     height: 150px;
     background-color: white;
+}
+
+img:first-child {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+img:nth-child(2) {
+    top: 0;
+    left: 50px;
+    bottom: 0;
+    margin: auto;
+}
+
+img:nth-child(3) {
+    top: 0;
+    left: 100px;
+    bottom: 0;
+    margin: auto;
+}
+
+img:last-child {
+    top: 0;
+    left: 150px;
+    bottom: 0;
+    margin: auto;
 }
 
 

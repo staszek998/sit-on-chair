@@ -186,6 +186,12 @@ title {
 
 .col-3-layout {}
 
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 
 /* ****************************************************************** */
 
@@ -251,6 +257,10 @@ header {
 .section-pricing {
     height: 700px;
     background-color: #EFF2F2;
+}
+
+.col-3-layout {
+    height: 100%;
 }
 
 

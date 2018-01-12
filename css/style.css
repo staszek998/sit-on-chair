@@ -313,6 +313,12 @@ nav span {
     width: 150px;
 }
 
+.border-gray {
+    border: 2px solid #EFF2F2;
+    padding: 15px;
+    height: 100%;
+}
+
 
 /* ****************************************************************** */
 

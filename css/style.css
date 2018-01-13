@@ -350,6 +350,24 @@ nav span {
     font-weight: 700;
 }
 
+span.less-than,
+span.greater-than {
+    display: block;
+    position: absolute;
+    color: #28C5AD;
+    font-size: 100px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+span.less-than {
+    left: 0;
+}
+
+span.greater-than {
+    right: 0;
+}
+
 
 /* ****************************************************************** */
 

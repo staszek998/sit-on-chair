@@ -472,6 +472,20 @@ h2 {
     height: calc(100% - 60px);
 }
 
+.col-3-layout div.col {
+    padding: 20px;
+}
+
+div.pricing {
+    position: absolute;
+    width: 90%;
+    height: 80%;
+    left: 0;
+    right: 0;
+    top: 100px;
+    margin: auto;
+}
+
 
 /* ****************************************************************** */
 

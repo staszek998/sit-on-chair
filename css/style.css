@@ -261,14 +261,14 @@ nav span {
 
 .section-slider {
     height: 500px;
-    background: rgba(255, 255, 255, 1);
-    background: -moz-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(212, 212, 212, 1) 100%);
-    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255, 255, 255, 1)), color-stop(100%, rgba(212, 212, 212, 1)));
-    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(212, 212, 212, 1) 100%);
-    background: -o-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(212, 212, 212, 1) 100%);
-    background: -ms-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(212, 212, 212, 1) 100%);
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(212, 212, 212, 1) 100%);
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d4d4d4', GradientType=0);
+    background: rgba(250, 250, 250, 1);
+    background: -moz-linear-gradient(top, rgba(250, 250, 250, 1) 0%, rgba(208, 207, 215, 1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(250, 250, 250, 1)), color-stop(100%, rgba(208, 207, 215, 1)));
+    background: -webkit-linear-gradient(top, rgba(250, 250, 250, 1) 0%, rgba(208, 207, 215, 1) 100%);
+    background: -o-linear-gradient(top, rgba(250, 250, 250, 1) 0%, rgba(208, 207, 215, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(250, 250, 250, 1) 0%, rgba(208, 207, 215, 1) 100%);
+    background: linear-gradient(to bottom, rgba(250, 250, 250, 1) 0%, rgba(208, 207, 215, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#fafafa', endColorstr='#d0cfd7', GradientType=0);
 }
 
 #col-2-layout-slider {
@@ -450,7 +450,7 @@ span.greater-than {
 
 .section-pricing {
     height: 700px;
-    background-color: #EFF2F2;
+    background-color: #F1F1F1;
 }
 
 .col-3-layout {
@@ -543,12 +543,15 @@ tr:nth-child(even) {
     background-color: #28C5AD;
     border: none;
     border-radius: 8px;
-    margin-left: auto;
-    margin-right: auto;
     text-transform: uppercase;
     color: white;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 200;
+    position: absolute;
+    bottom: 39px;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
 }
 
 div.col-3-layout.calc {

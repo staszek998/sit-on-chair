@@ -152,10 +152,11 @@
     margin: 0;
     padding: 0;
     display: block;
-    font-family: sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
-title {
+title,
+style {
     display: none;
 }
 
@@ -327,6 +328,11 @@ nav span {
     height: auto !important;
 }
 
+.slider-paragraph {
+    margin-top: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
 
 /* ****************************************************************** */
 
@@ -408,6 +414,7 @@ h2 {
     text-transform: uppercase;
     color: rgb(96, 96, 96);
     font-size: 30px;
+    font-family: 'Raleway', sans-serif;
 }
 
 .calc {

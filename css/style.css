@@ -453,6 +453,10 @@ span.greater-than {
     background-color: #F1F1F1;
 }
 
+.section-pricing .container {
+    padding-top: 18px;
+}
+
 .col-3-layout {
     height: 100%;
     display: block;
@@ -486,7 +490,7 @@ div.pricing {
     height: 80%;
     left: 0;
     right: 0;
-    top: 100px;
+    top: 73px;
     margin: auto;
     background-color: #F9F9F9;
     border: 2px solid gray;
@@ -549,7 +553,7 @@ tr:nth-child(even) {
     font-size: 18px;
     font-weight: 200;
     position: absolute;
-    bottom: 39px;
+    bottom: 34px;
     left: 50%;
     right: 50%;
     transform: translateX(-50%);

@@ -486,6 +486,49 @@ div.pricing {
     margin: auto;
 }
 
+div.pricing * {
+    display: block;
+}
+
+div.pricing-plan-white h2 {
+    color: #28C5AD;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+tr {
+    position: relative;
+    height: 60px;
+}
+
+td {
+    text-align: center;
+}
+
+tr:nth-child(odd) {
+    background-color: gray;
+}
+
+tr:nth-child(even) {
+    background-color: lightgray;
+}
+
+.delivery-truck-icon,
+.wrench-and-screwer-icon {
+    height: 40px;
+    position: absolute;
+    top: 50%;
+    bottom: 0;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.wrench-and-screwer-icon {
+    height: 30px;
+    position: absolute;
+}
+
 
 /* ****************************************************************** */
 

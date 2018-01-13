@@ -490,6 +490,7 @@ div.pricing {
     margin: auto;
     background-color: #F9F9F9;
     border: 2px solid gray;
+    border-radius: 5px;
 }
 
 div.pricing * {
@@ -569,6 +570,21 @@ span.td-span {
 div.icon-container {
     width: 60px;
     height: 60px;
+}
+
+div.pricing.pricing-plan-white.relative::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+    top: -32px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #C2C2C2;
+    border: #F9F9F9 15px solid;
+    box-shadow: 0 0 0 2px gray;
 }
 
 

@@ -317,6 +317,7 @@ nav span {
     font-size: 50px;
     color: black;
     font-weight: 900;
+    display: block;
 }
 
 #slider-container p {
@@ -331,6 +332,22 @@ nav span {
 .slider-paragraph {
     margin-top: 20px;
     font-family: 'Raleway', sans-serif;
+    line-height: 25px;
+}
+
+.slider-button {
+    width: 250px;
+    height: 50px;
+    background-color: #28C5AD;
+    border: none;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
 }
 
 

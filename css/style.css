@@ -249,6 +249,10 @@ nav span {
     font-weight: 400;
 }
 
+.no-padding {
+    padding: 0;
+}
+
 
 /* ****************************************************************** */
 
@@ -484,6 +488,8 @@ div.pricing {
     right: 0;
     top: 100px;
     margin: auto;
+    background-color: #F9F9F9;
+    border: 2px solid gray;
 }
 
 div.pricing * {
@@ -495,6 +501,11 @@ div.pricing-plan-white h2 {
     text-align: center;
     font-size: 50px;
     font-weight: 400;
+    margin-top: 50px;
+}
+
+table {
+    margin-top: 70px;
 }
 
 tr {
@@ -502,16 +513,12 @@ tr {
     height: 60px;
 }
 
-td {
-    text-align: center;
-}
-
 tr:nth-child(odd) {
-    background-color: gray;
+    background-color: #E4E4E4;
 }
 
 tr:nth-child(even) {
-    background-color: lightgray;
+    background-color: #F1F1F1;
 }
 
 .delivery-truck-icon,
@@ -529,6 +536,32 @@ tr:nth-child(even) {
 .wrench-and-screwer-icon {
     height: 30px;
     position: absolute;
+}
+
+.order-button {
+    width: 100px;
+    height: 30px;
+    background-color: #28C5AD;
+    border: none;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+div.col-3-layout.calc {
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+span.td-span {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
 }
 
 

@@ -515,7 +515,9 @@ tr:nth-child(even) {
 }
 
 .delivery-truck-icon,
-.wrench-and-screwer-icon {
+.wrench-and-screwer-icon,
+.wax-seal-icon,
+.pencil-and-ruler-icon {
     height: 40px;
     position: absolute;
     top: 50%;

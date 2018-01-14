@@ -232,6 +232,10 @@ h1 {
     font-weight: normal;
 }
 
+h1:hover {
+    cursor: pointer;
+}
+
 .turquoise {
     color: #28C5AD;
     font-weight: 1000;
@@ -247,6 +251,14 @@ nav span {
     color: white;
     font-size: 20px;
     font-weight: 400;
+}
+
+nav span:hover {
+    cursor: pointer;
+}
+
+nav span:nth-child(2) {
+    margin-left: -10px;
 }
 
 .no-padding {
@@ -352,6 +364,13 @@ nav span {
     color: white;
     font-size: 30px;
     font-weight: 700;
+    box-shadow: 0 0 10px 0 gray;
+}
+
+.slider-button:hover {
+    background-color: white;
+    color: #28C5AD;
+    cursor: pointer;
 }
 
 span.less-than,
@@ -557,6 +576,14 @@ tr:nth-child(even) {
     left: 50%;
     right: 50%;
     transform: translateX(-50%);
+    box-shadow: 0 0 5px 0 gray;
+}
+
+.order-button:hover {
+    background-color: white;
+    color: #28C5AD;
+    cursor: pointer;
+    /* border: 2px solid #28C5AD; */
 }
 
 div.col-3-layout.calc {
@@ -659,6 +686,14 @@ div.checkbox {
     color: white;
     font-size: 30px;
     font-weight: 700;
+    box-shadow: 0 0 10px 0 gray;
+}
+
+.section-contact button:hover {
+    background-color: white;
+    color: #28C5AD;
+    cursor: pointer;
+    /* border: 2px solid #28C5AD; */
 }
 
 .form-padding {
@@ -668,13 +703,14 @@ div.checkbox {
 
 .form {
     width: 100%;
+    color: gray;
 }
 
 #textarea {
     height: 54%;
     outline: none;
     border: 2px #28C5AD solid;
-    color: #EFF2F2;
+    color: gray;
     font-size: 15px;
     font-family: 'Raleway', sans-serif;
     resize: none;
@@ -689,7 +725,7 @@ div.checkbox {
     height: 40%;
     outline: none;
     border: 2px #28C5AD solid;
-    color: #EFF2F2;
+    color: gray;
     font-size: 30px;
     font-family: 'Raleway', sans-serif;
     padding-left: 20px;
@@ -717,6 +753,10 @@ div.checkbox {
     margin-bottom: 35px;
 }
 
+.section-contact div.container {
+    padding-top: 20px;
+}
+
 
 /* ****************************************************************** */
 
@@ -724,7 +764,7 @@ div.checkbox {
 /* FOOTER */
 
 footer {
-    height: 150px;
+    height: 200px;
     background-color: white;
 }
 
@@ -759,7 +799,7 @@ footer img:last-child {
 footer h1 {
     color: rgb(96, 96, 96);
     position: absolute;
-    top: 65px;
+    top: 90px;
     left: 0;
     right: 0;
     bottom: 0;
@@ -774,7 +814,7 @@ footer span {
 .copyright {
     color: rgb(96, 96, 96);
     position: absolute;
-    top: 68px;
+    top: 90px;
     left: 0;
     bottom: 0;
     margin: auto;

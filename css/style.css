@@ -276,11 +276,11 @@ span.greater-than {
 }
 
 .product-1 {
-    background-image: url("/home/stan/coders-lab/workspace/module-1/workshops/sit-on-chair/images/box1_img.jpg");
+    background-image: url("../images/box1_img.jpg");
 }
 
 .product-2 {
-    background-image: url("/home/stan/coders-lab/workspace/module-1/workshops/sit-on-chair/images/box2_img.jpg");
+    background-image: url("../images/box2_img.jpg");
 }
 
 .section-products .col-3-layout .col {
@@ -515,7 +515,7 @@ div.checkbox {
     border: 2px solid rgb(96, 96, 96);
     border-radius: 5px;
     position: relative;
-    background-image: url("/home/stan/coders-lab/workspace/module-1/workshops/sit-on-chair/images/form_ok.jpg");
+    background-image: url("../images/form_ok.jpg");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: -1px 5px;

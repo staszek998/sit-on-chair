@@ -672,8 +672,24 @@ footer span {
     position: absolute;
     top: 90px;
     left: 0;
-    bottom: 0;
     margin: auto;
+}
+
+.author-credit {
+    color: rgb(96, 96, 96);
+    position: absolute;
+    top: 112px;
+    left: 0;
+    margin: auto;
+}
+
+.flaticon:link {
+    color: rgb(96, 96, 96);
+    display: inline;
+}
+
+.flaticon:visited {
+    color: rgb(96, 96, 96);
 }
 
 

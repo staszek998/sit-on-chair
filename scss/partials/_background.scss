@@ -1,0 +1,42 @@
+@import 'modules/variables';
+.body-background--top {
+    width: 100vw;
+    background-color: black;
+}
+
+.body-background--header {
+    width: 100vw;
+    background: rgba(250, 250, 250, 1);
+    background: -moz-linear-gradient(top, rgba(250, 250, 250, 1) 0%, rgba(208, 207, 215, 1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(250, 250, 250, 1)), color-stop(100%, rgba(208, 207, 215, 1)));
+    background: -webkit-linear-gradient(top, rgba(250, 250, 250, 1) 0%, rgba(208, 207, 215, 1) 100%);
+    background: -o-linear-gradient(top, rgba(250, 250, 250, 1) 0%, rgba(208, 207, 215, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(250, 250, 250, 1) 0%, rgba(208, 207, 215, 1) 100%);
+    background: linear-gradient(to bottom, rgba(250, 250, 250, 1) 0%, rgba(208, 207, 215, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafafa', endColorstr='#d0cfd7', GradientType=0);
+}
+
+.body-background--products {
+    width: 100vw;
+    background-color: white;
+}
+
+.body-background--pricing {
+    width: 100vw;
+    background-color: $lightGray;
+}
+
+.body-background--compose {
+    width: 100vw;
+    background-color: white;
+}
+
+.body-background--contact {
+    width: 100vw;
+    background-color: $lightGray;
+}
+
+.body-background--footer {
+    width: 100vw;
+    background-color: white;
+}

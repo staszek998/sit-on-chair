@@ -1,0 +1,15 @@
+@import 'modules/variables';
+nav {
+    width: 500px;
+    border: $borderRed;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.nav__contact,
+.nav__gallery,
+.dropdown-button {
+    background: 0;
+    border: 0;
+}
+

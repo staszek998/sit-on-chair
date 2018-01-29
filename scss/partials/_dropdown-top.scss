@@ -1,0 +1,38 @@
+@import 'modules/variables';
+.nav__about-us {
+    position: relative;
+    display: inline-block;
+    margin-right: 41px;
+    span {
+        color: white;
+        margin-top: 14px;
+        font-weight: 600;
+        display: block;
+        font-family: 'Raleway', sans-serif;
+        text-transform: uppercase;
+    }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: black;
+        min-width: 160px;
+        box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+        font-family: 'Raleway', sans-serif;
+        top: 38px;
+        left: -38px;
+        a {
+            color: white;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            &:hover {
+                background-color: $lightGray;
+                color: black;
+            }
+        }
+    }
+    &:hover .dropdown-content {
+        display: block;
+    }
+}

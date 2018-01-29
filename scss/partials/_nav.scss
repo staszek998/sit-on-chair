@@ -1,4 +1,5 @@
 @import 'modules/variables';
+@import 'partials/dropdown-top';
 nav {
     width: 500px;
     border: $borderRed;
@@ -7,9 +8,18 @@ nav {
 }
 
 .nav__contact,
-.nav__gallery,
-.dropdown-button {
-    background: 0;
-    border: 0;
+.nav__gallery {
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 14px;
+    font-weight: 600;
 }
 
+.nav__contact {
+    margin-right: 81px;
+}
+
+.nav__gallery {
+    margin-right: 30px;
+}

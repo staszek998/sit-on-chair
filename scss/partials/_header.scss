@@ -8,6 +8,7 @@ header {
 
 .fa-angle-right {
     right: 0;
+    
 }
 
 .fa-angle-left {
@@ -25,6 +26,9 @@ header {
     border: none;
     padding: 0;
     z-index: 3;
+    &:hover {
+        cursor: pointer;
+    }
 }
 
 .slide1,

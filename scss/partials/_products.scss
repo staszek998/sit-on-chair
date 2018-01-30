@@ -3,5 +3,83 @@
 .products {
     width: 100%;
     height: 350px;
-    border: $borderRed;
+    display: flex;
+    flex-wrap: nowrap;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    justify-content: space-between;
+}
+
+.claire {
+    background-image: url('../images/boxes/claire.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 32%;
+    display: flex;
+    flex-direction: column-reverse;
+
+    div.products__product-title {
+        width: 100%;
+        margin-bottom: 20px;
+        background-color: rgba(255, 255, 255, 0.433);
+        height: 50px;
+        padding: 10px;
+        
+    }
+}
+
+.margharita {
+    background-image: url('../images/boxes/margharita.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 32%;
+    display: flex;
+    flex-direction: column-reverse;
+    
+    div.products__product-title {
+        width: 100%;
+        margin-bottom: 20px;
+        background-color: rgba(255, 255, 255, 0.433);
+        height: 50px;
+        padding: 10px;
+        
+    }
+}
+
+.products__product-info {
+    width: 32%;
+    padding: 20px;
+    border: $lightGray 3px solid;
+}
+
+h4 {
+    font-family: $Raleway;
+    font-weight: 800;
+
+    &::after {
+        content: '';
+        display: block;
+        height: 5px;
+        background-color: $turquoise;
+        border-radius: 2px;
+    }
+}
+
+.claire h4::after {
+    width: 35%;
+}
+
+.margharita h4::after {
+    width: 50%;
+}
+
+.products__product-info h4::after {
+    width: 45%;
+}
+
+p {
+    font-family: $Raleway;
+    line-height: 21px;
 }

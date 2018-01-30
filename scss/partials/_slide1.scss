@@ -1,0 +1,67 @@
+@import 'modules/variables';
+
+.slide1 {
+    .text-wrapper,
+    .img {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .img {
+        width: calc(3/7 * 100%);
+        background-image: url('../images/chairs/black-chair.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-left: 40px;
+        height: 100%;
+        background-position-x: -132px;
+        background-position-y: 27px;
+    }
+    .text-wrapper {
+        width: calc(4/7 * 100%);
+        margin-right: 40px;
+        padding-right: 77px;
+
+    }
+    h1,
+    span,
+    button {
+        text-transform: uppercase;
+        font-family: $Raleway;
+    }
+    p {
+        font-family: $Raleway;
+        margin: 35px 0;
+        line-height: 22px;
+        text-align: center;
+    }
+    span {
+        color: $turquoise;
+        font-weight: 900;
+        font-size: 40px;
+    }
+    h1 {
+        font-weight: 900;
+        font-size: 40px;
+    }
+}
+
+.slide1__button {
+    background-color: $turquoise;
+    width: 50%;
+    height: 40px;
+    color: white;
+    border: none;
+    outline: none;
+    font-family: $Raleway;
+    font-size: 25px;
+    border-radius: 10px;
+    transition: background 0.3s, color 0.3s;
+
+    &:hover {
+        background-color: white;
+        color: $turquoise;
+        cursor: pointer;
+    }
+}

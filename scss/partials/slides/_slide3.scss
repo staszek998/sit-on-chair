@@ -1,0 +1,28 @@
+@import 'modules/variables';
+.slide3 {
+    background-image: url('../images/chairs/yellow-chair.jpeg');
+    background-size: cover;
+    background-position-y: 527px;
+    position: relative;
+    h1,
+    span,
+    {
+        text-transform: uppercase;
+        font-family: $Raleway;
+    }
+    h1 {
+        font-weight: 900;
+        font-size: 40px;
+        position: absolute;
+        right: 70px;
+        bottom: 90px;
+        text-align: center;
+        text-shadow: 0 0 10px white;
+        transform: rotate(80deg);
+    }
+    span {
+        color: $turquoise;
+        font-weight: 900;
+        font-size: 40px;
+    }
+}

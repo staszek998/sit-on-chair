@@ -126,6 +126,15 @@ h3 {
     border: none;
     position: absolute;
     bottom: 19px;
+    transition: background 0.3s, color 0.3s;
+
+
+    &:hover {
+        background-color: white;
+        color: $turquoise;
+        cursor: pointer;
+        border: 2px $turquoise solid;
+    }
 }
 
 .plan-content--gray {

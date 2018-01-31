@@ -63,4 +63,10 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    a {
+        transition: text-shadow 0.2s;
+        &:hover {
+            text-shadow: 0 0 12px $gray;
+        }
+    }
 }

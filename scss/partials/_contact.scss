@@ -89,6 +89,10 @@ div.col:last-child {
     font-size: 20px;
     color: $gray;
     width: 186px;
+    a {
+        text-decoration: underline;
+        color: $gray;
+    }
 }
 
 .sub-row {

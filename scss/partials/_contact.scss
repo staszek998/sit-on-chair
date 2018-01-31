@@ -52,7 +52,7 @@ div.col:last-child {
     padding-left: 15px;
     font-family: $Raleway;
     &::placeholder {
-        color: $lightGray;
+        color: lighten($gray, 10%);
     }
 }
 

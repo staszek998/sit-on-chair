@@ -70,7 +70,7 @@
 __webpack_require__(1);
 __webpack_require__(2);
 __webpack_require__(3);
-
+__webpack_require__(4);
 
 /***/ }),
 /* 1 */
@@ -181,6 +181,18 @@ margharita.addEventListener('mouseover', function() {
 margharita.addEventListener('mouseout', function() {
     margharitaTitle.style.opacity = '1';
 });
+
+/***/ }),
+/* 4 */
+/***/ (function(module, exports) {
+
+var arrowChair = document.querySelector('.drop_down_list:first-child span.list_arrow');
+console.log(arrowChair);
+var arrowColour = document.querySelector('.drop_down_list:nth-child(2) span.list_arrow');
+console.log(arrowColour);
+var arrowMaterial = document.querySelector('.drop_down_list:nth-child(3) span.list_arrow');
+console.log(arrowMaterial);
+
 
 /***/ })
 /******/ ]);

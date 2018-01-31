@@ -1,1 +1,2 @@
-require('./header')
+require('./header');
+require('./top');

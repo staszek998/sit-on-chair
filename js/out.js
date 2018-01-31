@@ -67,7 +67,8 @@
 /* 0 */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(1)
+__webpack_require__(1);
+__webpack_require__(2);
 
 /***/ }),
 /* 1 */
@@ -102,6 +103,21 @@ nextSlide.addEventListener('click', changeSlides(1));
 
 var prevSlide = document.querySelector('.fa-angle-left');
 prevSlide.addEventListener('click', changeSlides(-1));
+
+/***/ }),
+/* 2 */
+/***/ (function(module, exports) {
+
+var dropdownButton = document.querySelector('.dropdown-button');
+var dropdownContent = document.querySelector('.dropdown-content');
+
+dropdownContent.addEventListener('mouseover', function() {
+    dropdownButton.style.textShadow = '0 0 8px white';
+});
+
+dropdownContent.addEventListener('mouseout', function() {
+    dropdownButton.style.textShadow = '0 0 0 white';
+});
 
 /***/ })
 /******/ ]);

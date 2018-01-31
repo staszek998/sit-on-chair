@@ -69,6 +69,8 @@
 
 __webpack_require__(1);
 __webpack_require__(2);
+__webpack_require__(3);
+
 
 /***/ }),
 /* 1 */
@@ -117,6 +119,33 @@ dropdownContent.addEventListener('mouseover', function() {
 
 dropdownContent.addEventListener('mouseout', function() {
     dropdownButton.style.textShadow = '0 0 0 white';
+});
+
+/***/ }),
+/* 3 */
+/***/ (function(module, exports) {
+
+var claire = document.querySelector('.claire');
+var margharita = document.querySelector('.margharita');
+var claireTitle = claire.querySelector('.products__product-title');
+var margharitaTitle = margharita.querySelector('.products__product-title');
+
+// Hide claire product title
+claire.addEventListener('mouseover', function() {
+    claireTitle.style.opacity = '0';
+});
+// Show claire product title
+claire.addEventListener('mouseout', function() {
+    claireTitle.style.opacity = '1';
+});
+
+// Hide margharita product title
+margharita.addEventListener('mouseover', function() {
+    margharitaTitle.style.opacity = '0';
+});
+// Show margharita product title
+margharita.addEventListener('mouseout', function() {
+    margharitaTitle.style.opacity = '1';
 });
 
 /***/ })

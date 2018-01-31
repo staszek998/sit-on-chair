@@ -104,3 +104,17 @@ p {
     font-family: $Raleway;
     line-height: 21px;
 }
+
+h4 {
+    font-family: $Raleway;
+    font-weight: 800;
+    text-decoration: none;
+    color: black;            
+    &::after {
+        content: '';
+        display: block;
+        height: 5px;
+        background-color: $turquoise;
+        border-radius: 2px;
+    }
+}

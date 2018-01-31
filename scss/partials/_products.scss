@@ -1,5 +1,4 @@
 @import 'modules/variables';
-
 .products {
     width: 100%;
     height: 350px;
@@ -18,14 +17,25 @@
     width: 32%;
     display: flex;
     flex-direction: column-reverse;
-
     div.products__product-title {
         width: 100%;
         margin-bottom: 20px;
         background-color: rgba(255, 255, 255, 0.433);
         height: 50px;
         padding: 10px;
-        
+        a {
+            font-family: $Raleway;
+            font-weight: 800;
+            text-decoration: none;
+            color: black;            
+            &::after {
+                content: '';
+                display: block;
+                height: 5px;
+                background-color: $turquoise;
+                border-radius: 2px;
+            }
+        }
     }
 }
 
@@ -37,16 +47,40 @@
     width: 32%;
     display: flex;
     flex-direction: column-reverse;
-    
     div.products__product-title {
         width: 100%;
         margin-bottom: 20px;
         background-color: rgba(255, 255, 255, 0.433);
         height: 50px;
         padding: 10px;
-        
+        a {
+            font-family: $Raleway;
+            font-weight: 800;
+            text-decoration: none;
+            color: black;
+            &::after {
+                content: '';
+                display: block;
+                height: 5px;
+                background-color: $turquoise;
+                border-radius: 2px;
+            }
+        }
     }
 }
+
+// .img-title {
+//     font-family: $Raleway;
+//     font-weight: 800;
+//     text-decoration: none;
+//     &::after {
+//         content: '';
+//         display: block;
+//         height: 5px;
+//         background-color: $turquoise;
+//         border-radius: 2px;
+//     }
+// }
 
 .products__product-info {
     width: 32%;
@@ -54,28 +88,15 @@
     border: $lightGray 3px solid;
 }
 
-h4 {
-    font-family: $Raleway;
-    font-weight: 800;
-
-    &::after {
-        content: '';
-        display: block;
-        height: 5px;
-        background-color: $turquoise;
-        border-radius: 2px;
-    }
-}
-
-.claire h4::after {
+.claire a::after {
     width: 35%;
 }
 
-.margharita h4::after {
+.margharita a::after {
     width: 50%;
 }
 
-.products__product-info h4::after {
+.products__product-info a::after {
     width: 45%;
 }
 

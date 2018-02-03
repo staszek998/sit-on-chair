@@ -75,6 +75,39 @@ h2 {
     }
 }
 
+.selected {
+    background-color: $turquoise;
+    border-color: $turquoise;
+    transition:
+    background-color 0.3s, 
+    border-color 0.3s,
+    color 0.3s;
+    &::before {
+        background-color: white;
+        border-color: $turquoise;
+    }
+    &::after {
+        background-color: $turquoise;
+    }
+    h3 {
+        color: white;
+    }
+    .price {
+        border-color: $turquoise;
+        span {
+            color: $turquoise;
+            &::after {
+                color: $turquoise;
+            }
+        }
+    }
+    button {
+        color: $turquoise;
+        background-color: white;
+        border-color: $turquoise;
+    }
+}
+
 h3 {
     color: $turquoise;
     font-family: $Raleway;

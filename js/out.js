@@ -308,18 +308,6 @@ var buttonBasic = planBasic.querySelector("button");
 var buttonStandard = planStandard.querySelector("button");
 var buttonPremium = planPremium.querySelector("button");
 
-buttonBasic.addEventListener("click", function() {
-  changeSelection(this);
-});
-
-buttonStandard.addEventListener("click", function() {
-  changeSelection(this);
-});
-
-buttonPremium.addEventListener("click", function() {
-  changeSelection(this);
-});
-
 function whichSelected() {
   var selected = 0;
   var plans = [planBasic, planStandard, planPremium];
@@ -347,6 +335,18 @@ function changeSelection(button) {
     button.innerText = "detach";
   }
 }
+
+buttonBasic.addEventListener("click", function() {
+  changeSelection(this);
+});
+
+buttonStandard.addEventListener("click", function() {
+  changeSelection(this);
+});
+
+buttonPremium.addEventListener("click", function() {
+  changeSelection(this);
+});
 
 
 /***/ })

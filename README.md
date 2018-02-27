@@ -14,15 +14,15 @@ The above website is a training project I was working on while attendind to the 
 
 ### Benefit Plans section
 
-![Benefit Plans section screenshot](images/screenshots/music.png?raw=true "Home Page")
+![Benefit Plans section screenshot](images/screenshots/benefit-plans.png?raw=true "Benefit Plans section")
 
 ### Chair Composition section
 
-![Chair Composition section screenshot](images/screenshots/photos.png?raw=true "Home Page")
+![Chair Composition section screenshot](images/screenshots/chair-compose.png?raw=true "Chair Composition section")
 
 ### Contact and Footer sections
 
-![Contact and Footer sections screenshot](images/screenshots/videos.png?raw=true "Home Page")
+![Contact and Footer sections screenshot](images/screenshots/contact-and-footer.png?raw=true "Contact and Footer sections")
 
 ## Built With
 
